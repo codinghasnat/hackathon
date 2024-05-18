@@ -75,9 +75,9 @@ export const speakers = [
     {
         id: "speaker-1",
         content:
-            "Umar, co-founder of XYZ Reality, employs augmented reality to boost construction efficiency. Umar, a seasoned COO and entrepreneur, was instrumental in XYZ Reality's strategy. Currently, Umar is Director and Chief of Staff at Autodesk, focusing on generative AI and products like Revit and Civil 3D.",
-        name: "Umar Ahmed",
-        title: "Co-Founder of XYZ Reality | Director at Autodesk | Forbes 30U30",
+            "Raihaan, Co-Founder and CTO of bench_, pioneers AI-driven engineering. With experience at Entrepreneur First and the Karman Space Programme, he merges entrepreneurship and tech to solve challenges, making him a leading figure in AI and aerospace engineering.",
+        name: "Raihaan Usman",
+        title: "Co-Founder of Bench_ | Problem Solver | Imperial Alumni",
         img: people01, //change to speaker01
         time: "",
     },
@@ -140,12 +140,12 @@ export const speakers = [
 export const stats = [
     {
         id: "when",
-        title: "11am Sat 14th Oct - 2pm Sun 15th Oct",
+        title: "10am Sat 22nd June - 2pm Sun 23rd June",
         value: "When? ",
     },
     {
         id: "where",
-        title: "Sir Alexander Flemming",
+        title: "Huxley Building",
         subtitle: "Imperial College London",
         value: "Where? ",
     },

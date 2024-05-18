@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Tickets from "./Tickets";
 import Mission from "./Mission";
+import Theme from "./Theme";
 import Faqs from "./Faqs";
 import Team from "./Team";
 import Legacy from "./Legacy";
@@ -30,6 +31,7 @@ export {
     Hero,
     Tickets,
     Mission,
+    Theme,
     Boxes,
     Sponsors,
     Faqs,

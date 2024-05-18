@@ -251,9 +251,9 @@
 
 .yellow__gradient {
     background: linear-gradient(
-        to right,
+        to left,
 
-        rgba(255, 80, 77, 0.431) 0%,
+        rgba(187, 73, 71, 0.431) 0%,
         #eeff008b 100%
     );
     filter: blur(123px);

@@ -14,6 +14,7 @@ import {
     CTA,
     Footer,
     Timeline,
+    Theme,
     Mission,
 } from "./components";
 import Tickets from "./components/Tickets";
@@ -35,6 +36,11 @@ const App = () => {
             <div className={`bg-inherit ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Mission />
+                </div>
+            </div>
+            <div className={`bg-inherit ${styles.flexCenter}`}>
+                <div className={`${styles.boxWidth}`}>
+                    <Theme />
                 </div>
             </div>
 

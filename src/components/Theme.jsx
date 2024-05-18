@@ -14,18 +14,21 @@ const Mission = () => (
             <h1
                 className={`${styles.heading2}font-poppins font-light ss:text-[48px] text-[32px] text-white
             ss:leading-snug leading-[5px] mb-4 z-[10]`}>
-                <span className="text-gradient-keykey">
-                    Our Theme: Post Conflict Resolutions
-                </span>{" "}
+                <span className="text-gradient-keymission">Our Mission</span>{" "}
             </h1>
 
             <div className="flex md:flex-row flex-col items-center mb-4 z-[10]">
                 <h3 className="text-white">
-                    This year we will focus on{" "}
+                    Our Mission is to{" "}
                     <span className="text-gradient-keymission font-semibold text-lg">
-                        making the world a better place by helping those in
-                        areas that were once in conflict.
+                        empower students, foster creativity and entrepreneurship
                     </span>{" "}
+                    to
+                    <span className="text-gradient-keymission font-semibold text-lg">
+                        {" "}
+                        solve real-world challenges
+                    </span>{" "}
+                    with technology. <br />
                     <span className="text-gradient-keymission font-semibold text-lg">
                         {" "}
                         Network, learn, innovate!
@@ -53,7 +56,7 @@ const Mission = () => (
                 </h3>
                 <div
                     className="absolute z-[0] w-[30%] h-[50%] to right-5 
-        rounded-full yellow__gradient"
+        rounded-full green__gradient"
                 />
                 <img
                     src={missionpic} // Replace with the actual path to your image
