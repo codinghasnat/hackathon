@@ -4,6 +4,7 @@ import {
     people01,
     people02,
     people03,
+    // Panelists
     facebook,
     instagram,
     linkedin,
@@ -84,54 +85,38 @@ export const speakers = [
     {
         id: "speaker-2",
         content:
-            "Amar is an entrepreneur with interests in software applications to real world problems. He has applied his work at NASA, and more recently co-founded Wayve, a startup bringing scalable artificial intelligence to mobile robotics, starting with self driving cars.",
-        name: "Amar Shah",
-        title: "Founder of Buksana, AI Healthcare Startup | Software Engineer",
+            "Moin Bukhari is a dynamic Full Stack Engineer and Technical Co-Founder of Convo, an AI speech-to-speech language tutor. With a Master's in Computer Engineering from Imperial College London, he excels in the T3 Stack and has led impactful tech projects like Muddakir and Find Your Fit.",
+        name: "Moin Bukhari",
+        title: "Co-Founder of Convo | Software Engineer | Imperial Alumni",
+        img: people02,
+        time: "",
+    },
+];
+export const panelists = [
+    {
+        id: "speaker-1",
+        content:
+            "Zubair is a highly experienced senior software engineer currently working at Microsoft. graduated from Imperial in 2019 with a MEng in Computing working on the latest features for Microsoft’s products. 🌐💻 ",
+        name: "Zubair Chowdhury",
+        title: "Microsoft | Software Engineer | Imperial Alumni",
+        img: people01, //change to panelist speaker01
+        time: "",
+    },
+    {
+        id: "speaker-2",
+        content:
+            "Humza, a Senior Software Engineer at Centrica, enhances Energy Trading and Risk Management with Machine Learning. An expert in C# .NET, Azure, microservices, and domain-driven design, he blends complex technologies to solve real-world problems, driving tech innovation.",
+        name: "Humza Sheikh",
+        title: "ML Specialist | Software Engineer | Imperial Alumni",
         img: people02,
         time: "",
     },
     {
         id: "speaker-3",
         content:
-            "Zahid loves creating software to solve big problems. After 7 years leading technology in the London Insurance Market, he is building AI for health plans in US healthcare administration.",
-        name: "Zahid Mahmood",
-        title: "Founder | Engineer",
-        img: people03,
-        time: "",
-    },
-    {
-        id: "speaker-4",
-        content:
-            "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
-        img: people03,
-        time: "",
-    },
-    {
-        id: "speaker-5",
-        content:
-            "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
-        img: people03,
-        time: "",
-    },
-    {
-        id: "speaker-6",
-        content:
-            "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
-        img: people03,
-        time: "",
-    },
-    {
-        id: "speaker-7",
-        content:
-            "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
+            "Subaan is a doctor and software engineer, currently a Clinical Software Engineer at a healthtech startup. Passionate about leveraging technology in healthcare, his journey at Imperial College London and role at FOSIS showcase his commitment to impactful tech solutions.",
+        name: "Subaan Qasim",
+        title: "Doctor | Engineer | Imperial Alumni",
         img: people03,
         time: "",
     },

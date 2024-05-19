@@ -6,14 +6,15 @@ import {
     Navbar,
     Hero,
     Stats,
-    Business,
-    Billing,
-    CardDeal,
-    Testimonials,
-    Clients,
-    CTA,
+    // Business,
+    // Billing,
+    // CardDeal,
+    // Testimonials,
+    // Clients,
+    // CTA,
     Footer,
-    Timeline,
+    Speakers,
+    Panelists,
     Theme,
     Mission,
 } from "./components";
@@ -46,7 +47,8 @@ const App = () => {
 
             <div className={`bg-inherit ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <Timeline />
+                    <Speakers />
+                    <Panelists />
                 </div>
             </div>
             <div className={`bg-inherit ${styles.flexCenter}`}>

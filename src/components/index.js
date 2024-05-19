@@ -14,7 +14,8 @@ import Theme from "./Theme";
 import Faqs from "./Faqs";
 import Team from "./Team";
 import Legacy from "./Legacy";
-import Timeline from "./Timeline";
+import Speakers from "./Speakers";
+import Panelists from "./Panelists";
 import Sponsors from "./Sponsors";
 import Boxes from "./Boxes";
 
@@ -37,5 +38,6 @@ export {
     Faqs,
     Team,
     Legacy,
-    Timeline,
+    Speakers,
+    Panelists,
 };

@@ -2,7 +2,7 @@ import { speakers } from "../constants";
 import styles from "../style";
 import Boxes from "./Boxes";
 
-const Timeline = () => (
+const Speakers = () => (
     <section
         id="clients"
         className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
@@ -18,7 +18,7 @@ const Timeline = () => (
                 className={`${styles.heading2}font-poppins font-light ss:text-[48px] text-[32px] text-white
             ss:leading-snug leading-[5px] mb-4`}>
                 <span className="text-gradient-keyspeakers">
-                    Our Speakers for 2023
+                    Our Speakers for 2024
                 </span>{" "}
             </h1>
         </div>
@@ -30,7 +30,7 @@ const Timeline = () => (
     </section>
 );
 
-export default Timeline;
+export default Speakers;
 
 // section
 //         id = "clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative
