@@ -87,7 +87,7 @@ export const speakers = [
     {
         id: "speaker-2",
         content:
-            "Moin Bukhari is a dynamic Full Stack Engineer and Technical Co-Founder of Convo, an AI speech-to-speech language tutor. With a Master's in Computer Engineering from Imperial College London, he excels in the T3 Stack and has led impactful tech projects like Muddakir and Find Your Fit.",
+            "Moin Bukhari is a dynamic Full Stack Engineer and Co-Founder of Convo, an AI speech-to-speech language tutor. With a Master's in Computer Engineering from Imperial College London, he has led impactful tech projects like Muddakir and Find Your Fit.",
         name: "Moin Bukhari",
         title: "Co-Founder of Convo | Software Engineer | Imperial Alumni",
         img: people02,
