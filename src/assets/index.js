@@ -29,6 +29,7 @@ import people04 from "./people04.png";
 import people05 from "./people05.png";
 import missionpng from "./Mission.png";
 import missionpic from "./missionpic.png";
+import pstatementspic from "./pstatementspic.png";
 import country from "./bangladesh.png";
 //import footerpic from "./final4.png";
 import footerpic from "./final5.png";
@@ -59,6 +60,7 @@ export {
     menu,
     missionpng,
     missionpic,
+    pstatementspic,
     close,
     google,
     apple,

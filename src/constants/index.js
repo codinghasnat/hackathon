@@ -98,7 +98,7 @@ export const panelists = [
     {
         id: "speaker-1",
         content:
-            "Zubair is a highly experienced senior software engineer currently working at Microsoft. graduated from Imperial in 2019 with a MEng in Computing working on the latest features for Microsoft’s products. 🌐💻 ",
+            "Zubair is a highly experienced senior software engineer currently working at Microsoft. graduated from Imperial in 2019 with a MEng in Computing working on the latest features for Microsoft’s products.",
         name: "Zubair Chowdhury",
         title: "Microsoft | Software Engineer | Imperial Alumni",
         img: people04, //change to panelist speaker01
@@ -127,7 +127,7 @@ export const panelists = [
 export const stats = [
     {
         id: "when",
-        title: "10am Sat 22nd June - 2pm Sun 23rd June",
+        title: "10am Sat 22nd June - 4pm Sun 23rd June",
         value: "When? ",
     },
     {

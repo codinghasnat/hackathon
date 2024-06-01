@@ -3,7 +3,7 @@ import styles from "../style";
 const LinkThree = () => (
     <a
         // This is the Discord Srv
-        href="https://www.google.co.uk"
+        href="https://discord.gg/sba2ygsnKX"
         target="_blank"
         rel="noopener noreferrer">
         <div

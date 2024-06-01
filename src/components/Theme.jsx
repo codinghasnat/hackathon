@@ -1,73 +1,72 @@
 import React from "react";
 import styles from "../style";
-import { missionpng, missionpic, country, logotwo } from "../assets";
+import { pstatementspic } from "../assets";
 
 const Mission = () => (
     <section
         id="mission"
         className={`flex ${styles.paddingY} justify-center items-center`}>
-        <div
-            className="absolute z-[0] w-[30%] h-[50%] to left-5 
-        rounded-full green__gradient"
-        />
+        <div className="absolute z-[0] w-[30%] h-[50%] to left-5 rounded-full " />
         <div className={`flex-col ${styles.flexStart} w-full text-left p-14`}>
             <h1
-                className={`${styles.heading2}font-poppins font-light ss:text-[48px] text-[32px] text-white
-            ss:leading-snug leading-[5px] mb-4 z-[10]`}>
-                <span className="text-gradient-keymission">Our Mission</span>{" "}
+                className={`${styles.heading2}font-poppins font-light ss:text-[48px] text-[32px] text-white ss:leading-snug leading-[5px] mb-4 z-[10]`}>
+                <span className="text-gradient-keykey">
+                    Our Theme: Post Conflict Resolutions
+                </span>{" "}
             </h1>
 
-            <div className="flex md:flex-row flex-col items-center mb-4 z-[10]">
-                <h3 className="text-white">
-                    Our Mission is to{" "}
-                    <span className="text-gradient-keymission font-semibold text-lg">
-                        empower students, foster creativity and entrepreneurship
-                    </span>{" "}
-                    to
-                    <span className="text-gradient-keymission font-semibold text-lg">
-                        {" "}
-                        solve real-world challenges
-                    </span>{" "}
-                    with technology. <br />
-                    <span className="text-gradient-keymission font-semibold text-lg">
-                        {" "}
-                        Network, learn, innovate!
+            <div className="flex md:flex-row flex-col items-center mb-4 z-20">
+                <div className="flex flex-col md:flex-row items-center">
+                    <img
+                        src={pstatementspic} // Replace with the actual path to your image
+                        alt="Problem Statements Pic"
+                        className="p-8 z-10"
+                        style={{
+                            width: "54%",
+                            marginLeft: "-3rem",
+                            marginRight: "-4rem",
+                        }}
+                    />
+                    <div className="text-white ml-4 p-8 z-20">
+                        <h3>
+                            Embrace the opportunity to make a real difference in
+                            the world by tackling pressing issues in{" "}
+                            <span className="text-gradient-keykey font-semibold text-lg">
+                                healthcare, education, construction, and social
+                                cohesion.
+                            </span>{" "}
+                        </h3>
                         <br />
-                    </span>{" "}
-                    This initiative unites diverse and passionate individuals
-                    who aim to create positive and lasting change.
-                    <br /> <br />
-                    <span className="text-gradient-keymission font-semibold text-lg">
-                        {" "}
-                        Network, learn, innovate!
+                        <h3>
+                            <span className="text-gradient-keykey font-semibold text-lg">
+                                Together,
+                            </span>{" "}
+                            we can construct a better tomorrow for
+                            conflict-affected communities insha'Allah!
+                        </h3>
                         <br />
-                    </span>{" "}
-                    Engage with peers and compete in charitable innovation, gain
-                    insights from successful entrepreneurs in a lively yet
-                    professional environment.
-                    <br /> <br />
-                    <span className="text-gradient-keyCountry font-semibold text-xl">
-                        {" "}
-                        The focus of the Hackathon this year is to build
-                        technology that can be implemented i and bring about
-                        positive change.
+                        <h3>
+                            <span className="text-gradient-keykey font-semibold text-lg">
+                                Together,
+                            </span>{" "}
+                            with your skills and passion we can shape impactful
+                            solutions that will positively impact lives
+                            insha'Allah!
+                        </h3>
                         <br />
-                    </span>{" "}
-                </h3>
+                        <h3>
+                            <span className="text-gradient-keykey font-semibold text-xl">
+                                {" "}
+                                Together, we can turn challenges into
+                                opportunities and sow the seeds of hope
+                                insha'Allah!
+                            </span>{" "}
+                        </h3>
+                    </div>
+                </div>
                 <div
-                    className="absolute z-[0] w-[30%] h-[50%] to right-5 
-        rounded-full green__gradient"
-                />
-                <img
-                    src={missionpic} // Replace with the actual path to your image
-                    alt="Mission Image"
-                    className="
-                    p-8 z-10"
-                    style={{
-                        width: "54%",
-                        marginLeft: "-3rem",
-                        marginRight: "-4rem",
-                    }}
+                    className="absolute z-[0] w-[60%] h-[30%] to left-7 
+            rounded-full whiteps__gradient"
                 />
             </div>
         </div>
@@ -84,42 +83,3 @@ const Mission = () => (
 );
 
 export default Mission;
-
-// import React from "react";
-// import styles from "../style";
-// ss:w-[100px] ss:h-[100px]
-//                     sm:w-[100px] sm:h-[100px]
-//                     md:w-[300px] md:h-[300px]
-//                     lg:w-[300px] lg:h-[300px]
-//                     xl:w-[300px] xl:h-[300px]
-
-// const Mission = () => (
-//     <section
-//         id="mission"
-//         className={`flex ${styles.paddingY} justify-center items-center`}>
-//         <div className={`flex-col ${styles.flexCenter} `}>
-//             <div className="flex flex-col justify-items-center items-center justify-center w-full">
-//                 <h1
-//                     className="font-poppins font-light ss:text-[62px] text-[52px] text-white
-//           ss:leading-snug leading-[5px]">
-//                     {/* Empowering <br className="sm:block hidden" />{" "} */}
-//                     <span className="text-gradient-keymission">
-//                         Our Mission
-//                     </span>{" "}
-//                 </h1>
-//             </div>
-//         </div>
-//         <div>
-//             <br className="sm:block hidden" />
-//             <h3>Our mission is too</h3>
-//         </div>
-//     </section>
-// );
-
-// export default Mission;
-
-// // className={`flex md:flex-row flex-col ${styles.paddingY} `}>
-// // <div
-// //     className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}>
-// //     <div className="flex flex- justify-between items-center w-full">
-// //         <h1

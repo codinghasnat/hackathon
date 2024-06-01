@@ -131,6 +131,14 @@
     text-fill-color: transparent;
 }
 
+.text-gradient-TheCountdown {
+    background: linear-gradient(to left, #ef32d9, #89fffd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
 .text-gradient-keycomms {
     background: linear-gradient(to right, #00fd37 30%, #00befe 60%);
     -webkit-background-clip: text;
@@ -152,6 +160,87 @@
 
 .glow-on-hover-green:hover {
     box-shadow: 0 0 20px #1ae857;
+}
+
+.rotate-on-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.rotate-on-hover:hover {
+    transform: rotate(355deg);
+}
+
+.location-wrapper {
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Optional: Add a background color for the widget */
+    border-radius: 20px; /* Optional: Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    max-width: 600px; /* Optional: Set max width for the widget */
+    margin: 0 auto; /* Center the widget horizontally */
+}
+
+/* // NEW */
+
+.location-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center the content horizontally */
+    padding: 2rem; /* Add padding to increase space around the container */
+}
+
+.location-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .location-container {
+        flex-direction: column;
+    }
+}
+
+.left-panel {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-container {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem; /* Add margin to create space between left panel and map */
+}
+
+.map-iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 20px; /* Match the radius of location-container */
+}
+
+.countdown-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* .left-panel {
+    flex: 1;
+    padding: 1rem;
+} */
+
+.glowing-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; /* Match the radius of location-container */
+    box-shadow: 0 0 20px 10px rgba(255, 215, 0, 0.6); /* Yellow glow */
+    z-index: -1; /* Ensure the glow is behind the map */
 }
 
 /* .bg-blue-gradient {
@@ -293,8 +382,27 @@
     background: linear-gradient(
         to left,
 
-        rgba(187, 73, 71, 0.431) 0%,
-        #eeff008b 100%
+        rgba(187, 73, 71, 0.604) 0%,
+        #eeff0043 100%
+    );
+    filter: blur(123px);
+}
+.whiteps__gradient {
+    background: linear-gradient(
+        to right,
+
+        rgba(254, 254, 254, 0.431) 80%,
+        rgba(253, 1, 1, 0.786)
+    );
+    filter: blur(123px);
+}
+
+.whites__gradient {
+    background: linear-gradient(
+        to right,
+
+        rgb(255, 255, 255) 100%,
+        #3dff0c 100%
     );
     filter: blur(123px);
 }

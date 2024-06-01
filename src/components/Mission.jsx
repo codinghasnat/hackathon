@@ -14,25 +14,23 @@ const Mission = () => (
             <h1
                 className={`${styles.heading2}font-poppins font-light ss:text-[48px] text-[32px] text-white
             ss:leading-snug leading-[5px] mb-4 z-[10]`}>
-                <span className="text-gradient-keykey">
-                    Our Theme: Post Conflict Resolutions
-                </span>{" "}
+                <span className="text-gradient-keymission">Our Mission</span>{" "}
             </h1>
 
             <div className="flex md:flex-row flex-col items-center mb-4 z-[10]">
                 <h3 className="text-white">
-                    This year we will focus on{" "}
+                    Our Mission is to{" "}
                     <span className="text-gradient-keymission font-semibold text-lg">
-                        making the world a better place by helping those in
-                        areas that were once in conflict.
+                        empower students, foster creativity and entrepreneurship
                     </span>{" "}
+                    to
                     <span className="text-gradient-keymission font-semibold text-lg">
                         {" "}
-                        Network, learn, innovate!
-                        <br />
+                        solve real-world challenges
                     </span>{" "}
-                    This initiative unites diverse and passionate individuals
-                    who aim to create positive and lasting change.
+                    with technology. <br />
+                    We want to help you build memories and stories to help take
+                    you to the next level.
                     <br /> <br />
                     <span className="text-gradient-keymission font-semibold text-lg">
                         {" "}
@@ -46,20 +44,20 @@ const Mission = () => (
                     <span className="text-gradient-keyCountry font-semibold text-xl">
                         {" "}
                         The focus of the Hackathon this year is to build
-                        technology that can be implemented i and bring about
+                        technology that can be implemented and bring about
                         positive change.
                         <br />
                     </span>{" "}
                 </h3>
                 <div
                     className="absolute z-[0] w-[30%] h-[50%] to right-5 
-        rounded-full yellow__gradient"
+        rounded-full yellow__gradient "
                 />
                 <img
                     src={missionpic} // Replace with the actual path to your image
                     alt="Mission Image"
                     className="
-                    p-8 z-10"
+                    p-8 z-10 custom-rounded"
                     style={{
                         width: "54%",
                         marginLeft: "-3rem",

@@ -15,6 +15,7 @@ import {
     Footer,
     Speakers,
     Panelists,
+    Location,
     Theme,
     Mission,
     Communications,
@@ -34,16 +35,17 @@ const App = () => {
                     <Hero />
                     <Stats />
                     <Tickets />
-                </div>
-            </div>
-            <div className={`bg-inherit ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <Mission />
+                    <Location />
                 </div>
             </div>
             <div className={`bg-inherit ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Theme />
+                </div>
+            </div>
+            <div className={`bg-inherit ${styles.flexCenter}`}>
+                <div className={`${styles.boxWidth}`}>
+                    <Mission />
                 </div>
             </div>
 

@@ -3,7 +3,7 @@ import styles from "../style";
 const LinkTwo = () => (
     <a
         // This is the Whatsapp GC
-        href="https://www.google.co.uk"
+        href="https://chat.whatsapp.com/KT6aIe30U06HAXz0Te3nXM"
         target="_blank"
         rel="noopener noreferrer">
         <div

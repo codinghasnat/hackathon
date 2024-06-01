@@ -16,7 +16,7 @@ const Hero = () => (
           ss:leading-snug leading-[50px] md:text-[57px] md:leading-[80px] xl:text-[62px] xl:leading-[90px] z-[8]">
                     Empowering <br className="sm:block hidden" />{" "}
                     <span className="text-gradient-keymuslim">Muslim</span>{" "}
-                    Programmers <br className="sm:block hidden" /> throughout
+                    Visionaries <br className="sm:block hidden" /> throughout
                     the Ummah
                 </h1>
             </div>

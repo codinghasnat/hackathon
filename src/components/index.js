@@ -14,7 +14,7 @@ import Mission from "./Mission";
 import Theme from "./Theme";
 import Faqs from "./Faqs";
 import Team from "./Team";
-import Legacy from "./Legacy";
+import Location from "./Location";
 import Speakers from "./Speakers";
 import Panelists from "./Panelists";
 import Sponsors from "./Sponsors";
@@ -41,7 +41,7 @@ export {
     Sponsors,
     Faqs,
     Team,
-    Legacy,
+    Location,
     Speakers,
     Panelists,
 };
