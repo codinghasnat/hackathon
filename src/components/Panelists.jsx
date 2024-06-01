@@ -1,6 +1,6 @@
 import { panelists } from "../constants";
 import styles from "../style";
-import Boxes from "./Boxes";
+import Boxes_2 from "./Boxes_2";
 
 const Panelists = () => (
     <section
@@ -13,18 +13,18 @@ const Panelists = () => (
         <div className="absolute z-[0] w-[60%] h-[10%] top-10 left-1 rounded-full yellows__gradient" />
 
         {/* Gradients */}
-        <div className={`flex-col ${styles.flexStart} w-full text-left p-14`}>
+        <div className={`flex-col ${styles.flexStart} w-full text-left p-10`}>
             <h1
                 className={`${styles.heading2}font-poppins font-light ss:text-[48px] text-[32px] text-white
             ss:leading-snug leading-[5px] mb-4`}>
-                <span className="text-gradient-keyspeakers">
+                <span className="text-gradient-keypanelists">
                     Our Panelists for 2024
                 </span>{" "}
             </h1>
         </div>
         <div className="flex flex-wrap sm:justify-center justify-center w-full relative z-[1]">
             {panelists.map((card) => (
-                <Boxes key={card.id} {...card} />
+                <Boxes_2 key={card.id} {...card} />
             ))}
         </div>
     </section>

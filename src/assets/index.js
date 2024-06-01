@@ -25,6 +25,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import people04 from "./people04.png";
+import people05 from "./people05.png";
 import missionpng from "./Mission.png";
 import missionpic from "./missionpic.png";
 import country from "./bangladesh.png";
@@ -70,5 +72,7 @@ export {
     people01,
     people02,
     people03,
+    people04,
+    people05,
     country,
 };

@@ -3,8 +3,10 @@
 import {
     people01,
     people02,
-    people03,
     // Panelists
+    people03,
+    people04,
+    people05,
     facebook,
     instagram,
     linkedin,
@@ -99,7 +101,7 @@ export const panelists = [
             "Zubair is a highly experienced senior software engineer currently working at Microsoft. graduated from Imperial in 2019 with a MEng in Computing working on the latest features for Microsoft’s products. 🌐💻 ",
         name: "Zubair Chowdhury",
         title: "Microsoft | Software Engineer | Imperial Alumni",
-        img: people01, //change to panelist speaker01
+        img: people04, //change to panelist speaker01
         time: "",
     },
     {
@@ -108,7 +110,7 @@ export const panelists = [
             "Humza, a Senior Software Engineer at Centrica, enhances Energy Trading and Risk Management with Machine Learning. An expert in C# .NET, Azure, microservices, and domain-driven design, he blends complex technologies to solve real-world problems, driving tech innovation.",
         name: "Humza Sheikh",
         title: "ML Specialist | Software Engineer | Imperial Alumni",
-        img: people02,
+        img: people05,
         time: "",
     },
     {

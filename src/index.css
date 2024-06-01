@@ -70,6 +70,19 @@
     text-fill-color: transparent;
 }
 
+.text-gradient-keypanelists {
+    background: linear-gradient(
+        to right,
+        rgb(0, 195, 255) -30%,
+        rgb(58, 209, 255) 50%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
 .white_shadow {
     text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.3),
         1px -1px 1px rgba(255, 255, 255, 0.3),
@@ -118,6 +131,29 @@
     text-fill-color: transparent;
 }
 
+.text-gradient-keycomms {
+    background: linear-gradient(to right, #00fd37 30%, #00befe 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.glow-on-hover {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-on-hover:hover {
+    box-shadow: 0 0 20px #00befe;
+}
+
+.glow-on-hover-green {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-on-hover-green:hover {
+    box-shadow: 0 0 20px #1ae857;
+}
+
 /* .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -149,6 +185,10 @@
 
 .bg-button-gradient {
     background: linear-gradient(180deg, #ff7700, #ffcc00 70%, #fbff00 80%);
+}
+
+.bg-button-gradient_2 {
+    background: linear-gradient(180deg, #00a6ff 30%, #00ffe1 70%);
 }
 
 .bg-black-gradient {
@@ -259,10 +299,19 @@
     filter: blur(123px);
 }
 
-.yellows__gradient {
+.comms__gradient {
     background: linear-gradient(
         to right,
 
+        rgba(0, 255, 255, 0.426) 0%,
+        #00ff085e 100%
+    );
+    filter: blur(123px);
+}
+
+.yellows__gradient {
+    background: linear-gradient(
+        to right,
         rgba(237, 255, 77, 0.417) 0%,
         #ffffff86 100%
     );

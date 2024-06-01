@@ -17,6 +17,7 @@ import {
     Panelists,
     Theme,
     Mission,
+    Communications,
 } from "./components";
 import Tickets from "./components/Tickets";
 
@@ -32,6 +33,7 @@ const App = () => {
                 <div className={`${styles.boxWidth}`}>
                     <Hero />
                     <Stats />
+                    <Tickets />
                 </div>
             </div>
             <div className={`bg-inherit ${styles.flexCenter}`}>
@@ -53,7 +55,7 @@ const App = () => {
             </div>
             <div className={`bg-inherit ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <Tickets />
+                    <Communications />
                 </div>
             </div>
             <div

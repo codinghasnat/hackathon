@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Tickets from "./Tickets";
+import Communications from "./Communications";
 import Mission from "./Mission";
 import Theme from "./Theme";
 import Faqs from "./Faqs";
@@ -18,6 +19,7 @@ import Speakers from "./Speakers";
 import Panelists from "./Panelists";
 import Sponsors from "./Sponsors";
 import Boxes from "./Boxes";
+import Boxes_2 from "./Boxes_2";
 
 export {
     Navbar,
@@ -26,6 +28,7 @@ export {
     Business,
     Clients,
     CTA,
+    Communications,
     Stats,
     Footer,
     Testimonials,
@@ -34,6 +37,7 @@ export {
     Mission,
     Theme,
     Boxes,
+    Boxes_2,
     Sponsors,
     Faqs,
     Team,
