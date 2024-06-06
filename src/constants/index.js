@@ -149,24 +149,16 @@ export const footerLinks = [
         title: "Useful Links",
         links: [
             {
-                name: "Content",
-                link: "https://www.hoobank.com/content/",
-            },
-            {
-                name: "How it Works",
-                link: "https://www.hoobank.com/how-it-works/",
-            },
-            {
-                name: "Create",
-                link: "https://www.hoobank.com/create/",
+                name: "Contact",
+                link: "mailto:hasnat_chow@outlook.com",
             },
             {
                 name: "Explore",
-                link: "https://www.hoobank.com/explore/",
+                link: "https://stemmuslims.org/",
             },
             {
-                name: "Terms & Services",
-                link: "https://www.hoobank.com/terms-and-services/",
+                name: "Our Committee",
+                link: "https://stemmuslims.org/committee",
             },
         ],
     },
@@ -174,24 +166,16 @@ export const footerLinks = [
         title: "Community",
         links: [
             {
-                name: "Help Center",
-                link: "https://www.hoobank.com/help-center/",
-            },
-            {
-                name: "Partners",
-                link: "https://www.hoobank.com/partners/",
-            },
-            {
-                name: "Suggestions",
-                link: "https://www.hoobank.com/suggestions/",
+                name: "Our Linktree",
+                link: "https://linktr.ee/stemmuslims",
             },
             {
                 name: "Blog",
-                link: "https://www.hoobank.com/blog/",
+                link: "https://www.linkedin.com/in/hasnat-chowdhury-b39188242/",
             },
             {
                 name: "Newsletters",
-                link: "https://www.hoobank.com/newsletters/",
+                link: "https://forms.office.com/pages/responsepage.aspx?id=B3WJK4zudUWDC0-CZ8PTB_FPR1TjLttGvCjlVkZ9yz9UMTQzTlFGUUpMQkhIQUZaRFFaRVlBWEdPVC4u",
             },
         ],
     },
@@ -199,12 +183,16 @@ export const footerLinks = [
         title: "Partner",
         links: [
             {
-                name: "Our Partner",
-                link: "https://www.hoobank.com/our-partner/",
+                name: "Action for Humanity",
+                link: "https://actionforhumanity.org/",
+            },
+            {
+                name: "Deen Developers",
+                link: "https://www.deendevelopers.com/",
             },
             {
                 name: "Become a Partner",
-                link: "https://www.hoobank.com/become-a-partner/",
+                link: "mailto:stemmuslims@hotmail.com",
             },
         ],
     },
@@ -214,22 +202,12 @@ export const socialMedia = [
     {
         id: "social-media-1",
         icon: instagram,
-        link: "https://www.instagram.com/",
-    },
-    {
-        id: "social-media-2",
-        icon: facebook,
-        link: "https://www.facebook.com/",
-    },
-    {
-        id: "social-media-3",
-        icon: twitter,
-        link: "https://www.twitter.com/",
+        link: "https://www.instagram.com/stem.muslims/",
     },
     {
         id: "social-media-4",
         icon: linkedin,
-        link: "https://www.linkedin.com/",
+        link: "https://www.linkedin.com/company/stem-muslims-imperial-college-london/",
     },
 ];
 

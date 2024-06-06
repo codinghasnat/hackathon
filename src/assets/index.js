@@ -1,5 +1,6 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
+import charity_img from "./actionforhumanity.png";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
@@ -48,6 +49,7 @@ export {
     binance,
     card,
     coinbase,
+    charity_img,
     dropbox,
     logo,
     logotwo,

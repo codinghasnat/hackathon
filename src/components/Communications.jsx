@@ -5,7 +5,7 @@ import LinkThree from "./LinkThree";
 
 const Communications = () => (
     <section
-        id="tickets"
+        id="contact"
         className={`flex ${styles.paddingY} justify-center items-center`}>
         <div
             className="absolute z-[0] w-[50%] h-[50%]

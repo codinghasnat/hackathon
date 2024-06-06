@@ -17,6 +17,7 @@ import Team from "./Team";
 import Location from "./Location";
 import Speakers from "./Speakers";
 import Panelists from "./Panelists";
+import CharitySponsor from "./CharitySponsor";
 import Sponsors from "./Sponsors";
 import Boxes from "./Boxes";
 import Boxes_2 from "./Boxes_2";
@@ -39,6 +40,7 @@ export {
     Boxes,
     Boxes_2,
     Sponsors,
+    CharitySponsor,
     Faqs,
     Team,
     Location,

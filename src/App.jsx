@@ -15,6 +15,7 @@ import {
     Footer,
     Speakers,
     Panelists,
+    CharitySponsor,
     Location,
     Theme,
     Mission,
@@ -46,6 +47,11 @@ const App = () => {
             <div className={`bg-inherit ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Mission />
+                </div>
+            </div>
+            <div className={`bg-inherit ${styles.flexCenter}`}>
+                <div className={`${styles.boxWidth}`}>
+                    <CharitySponsor />
                 </div>
             </div>
 
