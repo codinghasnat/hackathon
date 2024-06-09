@@ -48,14 +48,19 @@ const Footer = () => (
         <div className="w-full flex justify-between items-center md:flex-col flex-col pt-6 border-t-[1px] border-stone-100">
             <div className="flex flex-row md:mt-2 mt-6">
                 {socialMedia.map((social, index) => (
-                    <img
+                    <a
                         key={social.id}
-                        src={social.icon}
-                        alt={social.id}
-                        className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-                            index < socialMedia.length - 1 ? "mr-4" : ""
-                        }`}
-                    />
+                        href={social.link}
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <img
+                            src={social.icon}
+                            alt={social.id}
+                            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+                                index < socialMedia.length - 1 ? "mr-4" : ""
+                            }`}
+                        />
+                    </a>
                 ))}
             </div>
 
