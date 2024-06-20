@@ -27,12 +27,13 @@ const Tickets = () => (
                         className="text-gradient-keyyear ss:text-[32px] text-[32px]
                         ss:leading-snug leading-[30px] md:text-[37px] md:leading-[50px] 
                         xl:text-[32px] xl:leading-60px]">
-                        TICKETS NOW AVAILABLE
+                        {/* TICKETS NOW AVAILABLE */}
+                        TICKETS HAVE RUN OUT
                     </h1>
                 </div>
-                <div className="ss:flex md:mr-4 mr-0">
+                {/* <div className="ss:flex md:mr-4 mr-0">
                     <LinkOne />
-                </div>
+                </div> */}
             </div>
         </div>
     </section>

@@ -61,11 +61,11 @@ const App = () => {
                     <Panelists />
                 </div>
             </div>
-            <div className={`bg-inherit ${styles.flexCenter}`}>
+            {/* <div className={`bg-inherit ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Communications />
                 </div>
-            </div>
+            </div> */}
             <div
                 className={`bg-inherit ${styles.paddingY} ${styles.paddingX} ${styles.flexStart}`}
                 style={{
