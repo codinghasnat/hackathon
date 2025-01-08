@@ -95,24 +95,25 @@ export const speakers = [
     },
 ];
 export const panelists = [
-    {
-        id: "speaker-1",
-        content:
-            "Zubair is a highly experienced senior software engineer currently working at Microsoft. graduated from Imperial in 2019 with a MEng in Computing working on the latest features for Microsoft’s products.",
-        name: "Zubair Chowdhury",
-        title: "Microsoft | Software Engineer | Imperial Alumni",
-        img: people04, //change to panelist speaker01
-        time: "",
-    },
-    {
-        id: "speaker-2",
-        content:
-            "Humza, a Senior Software Engineer at Centrica, enhances Energy Trading and Risk Management with Machine Learning. An expert in C# .NET, Azure, microservices, and domain-driven design, he blends complex technologies to solve real-world problems, driving tech innovation.",
-        name: "Humza Sheikh",
-        title: "ML Specialist | Software Engineer | Imperial Alumni",
-        img: people05,
-        time: "",
-    },
+    // DO NOT PUT BACK IN:
+    // {
+    //     id: "speaker-1",
+    //     content:
+    //         "Zubair is a highly experienced senior software engineer currently working at Microsoft. graduated from Imperial in 2019 with a MEng in Computing working on the latest features for Microsoft’s products.",
+    //     name: "Zubair Chowdhury",
+    //     title: "Microsoft | Software Engineer | Imperial Alumni",
+    //     img: people04, //change to panelist speaker01
+    //     time: "",
+    // },
+    // {
+    //     id: "speaker-2",
+    //     content:
+    //         "Humza, a Senior Software Engineer at Centrica, enhances Energy Trading and Risk Management with Machine Learning. An expert in C# .NET, Azure, microservices, and domain-driven design, he blends complex technologies to solve real-world problems, driving tech innovation.",
+    //     name: "Humza Sheikh",
+    //     title: "ML Specialist | Software Engineer | Imperial Alumni",
+    //     img: people05,
+    //     time: "",
+    // },
     {
         id: "speaker-3",
         content:
