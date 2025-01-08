@@ -114,15 +114,15 @@ export const panelists = [
     //     img: people05,
     //     time: "",
     // },
-    {
-        id: "speaker-3",
-        content:
-            "Subaan is a doctor and software engineer, currently a Clinical Software Engineer at a healthtech startup. Passionate about leveraging technology in healthcare, his journey at Imperial College London and role at FOSIS showcase his commitment to impactful tech solutions.",
-        name: "Subaan Qasim",
-        title: "Doctor | Engineer | Imperial Alumni",
-        img: people03,
-        time: "",
-    },
+    // {
+    //     id: "speaker-3",
+    //     content:
+    //         "Subaan is a doctor and software engineer, currently a Clinical Software Engineer at a healthtech startup. Passionate about leveraging technology in healthcare, his journey at Imperial College London and role at FOSIS showcase his commitment to impactful tech solutions.",
+    //     name: "Subaan Qasim",
+    //     title: "Doctor | Engineer | Imperial Alumni",
+    //     img: people03,
+    //     time: "",
+    // },
 ];
 
 export const stats = [
