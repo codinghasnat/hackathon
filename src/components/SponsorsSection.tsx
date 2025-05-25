@@ -3,26 +3,26 @@ import { Award, Heart, Users } from "lucide-react";
 
 // Placeholder sponsor data
 const sponsors = [
-  { id: 1, name: "Deen Developers", logo: "/public/logos/deenDevelopers.jpg", website: "https://deendevelopers.com" },
-  { id: 2, name: "IHSAAN by FOSIS", logo: "/public/logos/ihsaan.jpg", website: "https://fosis.uk" },
-  { id: 3, name: "Redwood Founders", logo: "/public/logos/redwoodFounders.jpg", website: "https://redwoodfounders.org" },
-  { id: 4, name: "Cur8 Capital", logo: "/public/logos/cur8Capital.jpg", website: "https://cur8.capital" },
-  { id: 5, name: "Starlight", logo: "/public/logos/starlight.jpg", website: "https://www.starlight.inc" },
-  { id: 6, name: "Kestrl", logo: "/public/logos/kestrl.jpg", website: "https://kestrl.io" },
-  { id: 7, name: "Sunnamusk", logo: "/public/logos/sunnamusk.jpg", website: "https://sunnamusk.com" },
-  { id: 8, name: "Leonardo", logo: "/public/logos/leonardo.jpg", website: "https://www.imperial.ac.uk/business-school/faculty-research/research-centres/leonardo-centre-business-society/" },
-  { id: 9, name: "My Salah Mat", logo: "/public/logos/mySalahMat.jpg", website: "https://mysalahmat.com" }
+  { id: 1, name: "Deen Developers", logo: "/logos/deenDevelopers.jpg", website: "https://deendevelopers.com" },
+  { id: 2, name: "IHSAAN by FOSIS", logo: "/logos/ihsaan.jpg", website: "https://fosis.uk" },
+  { id: 3, name: "Redwood Founders", logo: "/logos/redwoodFounders.jpg", website: "https://redwoodfounders.org" },
+  { id: 4, name: "Cur8 Capital", logo: "/logos/cur8Capital.jpg", website: "https://cur8.capital" },
+  { id: 5, name: "Starlight", logo: "/logos/starlight.jpg", website: "https://www.starlight.inc" },
+  { id: 6, name: "Kestrl", logo: "/logos/kestrl.jpg", website: "https://kestrl.io" },
+  { id: 7, name: "Sunnamusk", logo: "/logos/sunnamusk.jpg", website: "https://sunnamusk.com" },
+  { id: 8, name: "Leonardo", logo: "/logos/leonardo.jpg", website: "https://www.imperial.ac.uk/business-school/faculty-research/research-centres/leonardo-centre-business-society/" },
+  { id: 9, name: "My Salah Mat", logo: "/logos/mySalahMat.jpg", website: "https://mysalahmat.com" }
 ];
 
 const charitySponsor = {
   name: "National Zakat Foundation",
-  logo: "/public/logos/NZF.jpg",
+  logo: "/logos/NZF.jpg",
   website: "https://nzf.org.uk"
 };
 
 const partnerOrg = {
   name: "ISOC",
-  logo: "/public/logos/isoc.jpg",
+  logo: "/logos/isoc.jpg",
   website: "https://www.theisoc.com/home"
 };
 
