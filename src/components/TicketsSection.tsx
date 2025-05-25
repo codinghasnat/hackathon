@@ -15,7 +15,7 @@ const TicketsSection = () => {
 
   useEffect(() => {
     // Set release date to 3 days from now
-    const releaseDate = new Date("May 26, 2025");
+    const releaseDate = new Date("May 26, 2025 12:00:00");
     
     const timer = setInterval(() => {
       const now = new Date().getTime();

@@ -16,13 +16,13 @@ const sponsors = [
 
 const charitySponsor = {
   name: "National Zakat Foundation",
-  logo: "/public/logos/NZF.png",
+  logo: "/public/logos/NZF.jpg",
   website: "https://nzf.org.uk"
 };
 
 const partnerOrg = {
   name: "ISOC",
-  logo: "/public/logos/isoc.png",
+  logo: "/public/logos/isoc.jpg",
   website: "https://www.theisoc.com/home"
 };
 

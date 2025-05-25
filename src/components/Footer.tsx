@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 flex items-center gap-4">
             <img 
-              src="/public/logos/STEMM.png" 
+              src="/public/logos/stemmTrans.png" 
               alt="STEMM Logo" 
               className="h-12 w-auto"
             />

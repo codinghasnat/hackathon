@@ -45,7 +45,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center gap-4">
           <img 
-            src="/public/logos/STEMM.png" 
+            src="/public/logos/stemmTrans.png" 
             alt="STEMM Logo" 
             className="h-12 w-auto"
           />
