@@ -4,7 +4,7 @@ import { Award, Heart, Users } from "lucide-react";
 // Placeholder sponsor data
 const sponsors = [
   { id: 1, name: "Deen Developers", logo: "/logos/deenDevelopers.jpg", website: "https://deendevelopers.com" },
-  { id: 2, name: "IHSAAN by FOSIS", logo: "/logos/ihsaan.jpg", website: "https://fosis.uk" },
+  { id: 2, name: "IHSAAN by FOSIS", logo: "/logos/ihsaan.jpg", website: "https://linktr.ee/ihsaanbyfosis" },
   { id: 3, name: "Redwood Founders", logo: "/logos/redwoodFounders.jpg", website: "https://redwoodfounders.org" },
   { id: 4, name: "Cur8 Capital", logo: "/logos/cur8Capital.jpg", website: "https://cur8.capital" },
   { id: 5, name: "Starlight", logo: "/logos/starlight.jpg", website: "https://www.starlight.inc" },
