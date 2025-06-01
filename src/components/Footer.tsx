@@ -19,11 +19,13 @@ const Footer = () => {
           
           <div className="flex flex-col md:flex-row gap-4 md:gap-8 items-center">
             <a href="#home" className="text-gray-300 hover:text-haqqathon-green">Home</a>
-            <a href="#mission" className="text-gray-300 hover:text-haqqathon-green">Our Mission</a>
+            <a href="#mission" className="text-gray-300 hover:text-haqqathon-green">Mission</a>
+            <a href="#themes" className="text-gray-300 hover:text-haqqathon-green">Themes</a>
             <a href="#tickets" className="text-gray-300 hover:text-haqqathon-green">Tickets</a>
             <a href="#testimonials" className="text-gray-300 hover:text-haqqathon-green">Testimonials</a>
             <a href="#trailer" className="text-gray-300 hover:text-haqqathon-green">Trailer</a>
-            <a href="#sponsors" className="text-gray-300 hover:text-haqqathon-green">Sponsors</a>
+            <a href="#speakers" className="text-gray-300 hover:text-haqqathon-green">Speakers</a>
+            <a href="#sponsors" className="text-gray-300 hover:text-haqqathon-green">Partners</a>
           </div>
         </div>
         
