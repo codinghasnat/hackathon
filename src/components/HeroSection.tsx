@@ -36,10 +36,10 @@ const HeroSection = () => {
             </div>
 
             {/* Trailer Box */}
-            <div className="hidden lg:block">
+            <div className="mt-4 md:mt-0 w-full md:w-auto flex justify-center">
               <a 
                 href="#trailer" 
-                className="group relative block w-[200px] h-[96px] bg-haqqathon-dark-light rounded-lg overflow-hidden border-2 border-haqqathon-green/50 hover:border-haqqathon-green transition-all duration-300 hover:shadow-lg hover:shadow-haqqathon-green/20"
+                className="group relative block w-full md:w-[200px] h-[96px] bg-haqqathon-dark-light rounded-lg overflow-hidden border-2 border-haqqathon-green/50 hover:border-haqqathon-green transition-all duration-300 hover:shadow-lg hover:shadow-haqqathon-green/20"
               >
                 <div className="absolute inset-0 bg-gradient-to-b from-haqqathon-green/20 to-transparent group-hover:from-haqqathon-green/30 transition-all duration-300"></div>
                 <div className="absolute inset-0 flex items-center justify-center p-4 text-center">
@@ -48,9 +48,10 @@ const HeroSection = () => {
                       <path d="M8 5.14V19.14L19 12.14L8 5.14Z" fill="currentColor"/>
                     </svg>
                   </div>
-                  <div className="text-left">
-                    <h3 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300">Watch Our</h3>
-                    <h2 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300">Trailer</h2>
+                  <div className="text-left md:text-center">
+                    <h3 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300 hidden md:block">Watch Our</h3>
+                    <h2 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300 hidden md:block">Trailer!</h2>
+                    <h3 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300 md:hidden">Watch Our Trailer!</h3>
                   </div>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-haqqathon-green/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
