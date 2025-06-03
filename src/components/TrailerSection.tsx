@@ -4,7 +4,7 @@ import { Video, Cog } from "lucide-react";
 
 const TrailerSection = () => {
   const [isReleased, setIsReleased] = useState(false);
-  const [releaseDate] = useState(new Date("June 4, 2025")); // Example date for trailer release
+  const [releaseDate] = useState(new Date("June 4, 2025 12:00:00")); // Trailer releases at midday (12:00:00)
 
   useEffect(() => {
     const checkReleaseStatus = () => {
@@ -33,7 +33,10 @@ const TrailerSection = () => {
   const formattedReleaseDate = new Intl.DateTimeFormat('en-US', {
     month: 'long',
     day: 'numeric',
-    year: 'numeric'
+    year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true
   }).format(releaseDate);
 
   return (
