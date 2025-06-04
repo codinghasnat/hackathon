@@ -4,7 +4,7 @@ import { Video, Cog } from "lucide-react";
 
 const TrailerSection = () => {
   const [isReleased, setIsReleased] = useState(false);
-  const [releaseDate] = useState(new Date("June 5, 2025 12:00:00")); // Trailer releases at midday (12:00:00)
+  const [releaseDate] = useState(new Date("June 10, 2025 12:00:00")); // Trailer releases at midday (12:00:00)
 
   useEffect(() => {
     const checkReleaseStatus = () => {
@@ -73,7 +73,7 @@ const TrailerSection = () => {
                   <div className="aspect-w-16 aspect-h-9 bg-haqqathon-dark rounded-md overflow-hidden">
                     <div className="w-full h-0 pb-[56.25%] relative">
                       <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-black/70 backdrop-blur-sm">
-                        <p className="text-xl md:text-2xl font-bold neon-text">Trailer Premieres on {formattedReleaseDate}</p>
+                        <p className="text-xl md:text-2xl font-bold neon-text">Trailer Coming Soon</p>
                         <div className="relative">
                           <Video className="w-16 h-16 text-haqqathon-green/50 recording-pulse" />
                           <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full recording-dot"></div>
