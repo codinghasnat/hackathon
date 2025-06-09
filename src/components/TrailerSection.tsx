@@ -4,7 +4,7 @@ import { Video, Cog } from "lucide-react";
 
 const TrailerSection = () => {
   const [isReleased, setIsReleased] = useState(false);
-  const [releaseDate] = useState(new Date("June 10, 2025 12:00:00")); // Trailer releases at midday (12:00:00)
+  const [releaseDate] = useState(new Date("June 14, 2025 12:00:00")); // Trailer releases at midday (12:00:00)
 
   useEffect(() => {
     const checkReleaseStatus = () => {
