@@ -49,9 +49,9 @@ const HeroSection = () => {
                     </svg>
                   </div>
                   <div className="text-left md:text-center">
-                    <h3 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300 hidden md:block">Watch Our</h3>
-                    <h2 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300 hidden md:block">Trailer!</h2>
-                    <h3 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300 md:hidden">Watch Our Trailer!</h3>
+                    <h3 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300 hidden md:block">Trailer Has</h3>
+                    <h2 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300 hidden md:block">Released!</h2>
+                    <h3 className="text-lg font-bold text-haqqathon-green group-hover:scale-105 transition-transform duration-300 md:hidden">Trailer Has Released!</h3>
                   </div>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-haqqathon-green/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>

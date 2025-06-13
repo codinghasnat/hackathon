@@ -4,7 +4,7 @@ import { Video, Cog } from "lucide-react";
 
 const TrailerSection = () => {
   const [isReleased, setIsReleased] = useState(false);
-  const [releaseDate] = useState(new Date("June 14, 2025 12:00:00")); // Trailer releases at midday (12:00:00)
+  const [releaseDate] = useState(new Date("June 13, 2025 12:00:00")); // Trailer releases at midday (12:00:00)
 
   useEffect(() => {
     const checkReleaseStatus = () => {
@@ -60,7 +60,7 @@ const TrailerSection = () => {
                   <div className="w-full h-0 pb-[56.25%] relative">
                     <iframe
                       className="absolute inset-0 w-full h-full"
-                      src="https://www.youtube.com/embed/DHS8Ud5cc_o?si=n9KkZ026QggNYIqU?rel=0&modestbranding=1"
+                      src="https://www.youtube.com/embed/yDk9btDZojo?si=L2DU5qSKXAt0KKUI?rel=0&modestbranding=1"
       
                       title="Haqqathon Trailer"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
